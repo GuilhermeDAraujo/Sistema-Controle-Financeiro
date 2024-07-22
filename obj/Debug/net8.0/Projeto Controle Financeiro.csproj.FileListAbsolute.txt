@@ -135,3 +135,4 @@ G:\Guilherme\Projeto Controle Financeiro\obj\Debug\net8.0\refint\Projeto Control
 G:\Guilherme\Projeto Controle Financeiro\obj\Debug\net8.0\Projeto Controle Financeiro.pdb
 G:\Guilherme\Projeto Controle Financeiro\obj\Debug\net8.0\Projeto Controle Financeiro.genruntimeconfig.cache
 G:\Guilherme\Projeto Controle Financeiro\obj\Debug\net8.0\ref\Projeto Controle Financeiro.dll
+G:\Guilherme\Projeto Controle Financeiro\obj\Debug\net8.0\Projeto Controle Financeiro.sourcelink.json
