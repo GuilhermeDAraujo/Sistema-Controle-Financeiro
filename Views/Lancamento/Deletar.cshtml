@@ -1,0 +1,63 @@
+@model Projeto_Controle_Financeiro.Models.Lancamento
+
+@{
+    ViewData["Title"] = "Deletar Lançamento";
+}
+
+<h1>Deletar</h1>
+
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Deletar" onsubmit="return confirmDelete();">
+            <input type="hidden" asp-for="LancamentoId"/>
+            
+            <div class="form-group">
+                <label asp-for="PessoaId" class="control-label"></label>
+                <select asp-for="PessoaId" asp-items="@ViewBag.Pessoa" class="form-control" disabled></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataDaCompra" class="control-label"></label>
+                <input asp-for="DataDaCompra" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Banco" class="control-label"></label>
+                <input asp-for="Banco" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Valor" class="control-label"></label>
+                <input asp-for="Valor" class="form-control" readonly/>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Deletar" class="btn btn-danger" />
+            </div>   
+        </form>
+    </div>
+</div>
+<hr/>
+<br>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+<script type="text/javascript">
+    function confirmDelete(){
+        var pessoa = "@Model.Pessoa.Nome";
+        var banco = "@Model.Banco";
+        var dataDaCompra = new Date("@Model.DataDaCompra").toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        });
+        var valor = "@Model.Valor";
+
+        var mensagem = `Tem certeza que deseja deletar o lançamento: \nNome: ${pessoa} \nBanco: ${banco} \nData da Compra: ${dataDaCompra} \nValor: ${valor}`;
+        return confirm(mensagem);
+    }
+</script>

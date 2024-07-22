@@ -1,0 +1,33 @@
+@model Projeto_Controle_Financeiro.Models.Pessoa
+
+@{
+    ViewData["Title"] = "Deletar Pessoa";
+}
+
+
+<h1 style="color: red;">Deseja Realmente deletar essa Pessoa? Essa operação é irreversível</h1>
+
+<div>
+    <d1 class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Nome)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Nome)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Cpf)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Cpf)
+        </dt>
+    </d1>
+</div>
+
+<form asp-action="Deletar">
+    <input type="hidden" asp-for="PessoaId" />
+    <input type="submit" value="Deletar" class="btn btn-danger"/>
+</form>
+
+<br>
+<a asp-action="Index">Voltar</a>

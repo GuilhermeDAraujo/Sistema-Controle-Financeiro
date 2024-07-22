@@ -1,0 +1,41 @@
+@model Projeto_Controle_Financeiro.Models.Lancamento
+
+@{
+    ViewData["Title"] = "Detalhes do lançamento";
+}
+
+<h1>Detalhes do lançamento</h1>
+
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Detalhes">
+            <div class="form-group">
+                <label asp-for="PessoaId" class="control-label"></label>
+                <select asp-for="PessoaId" asp-items="@ViewBag.Pessoa" class="form-control" disabled></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataDaCompra" class="control-label"></label>
+                <input asp-for="DataDaCompra" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Banco" class="control-label"></label>
+                <input asp-for="Banco" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Valor" class="control-label"></label>
+                <input asp-for="Valor" class="form-control" readonly/>
+            </div>
+        </form>
+    </div>
+</div>
+<hr/>
+<br>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>

@@ -1,0 +1,44 @@
+@model IEnumerable<Projeto_Controle_Financeiro.Models.Pessoa>
+
+@{
+    ViewData["Title"] = "Lista de Pessoas Cadastradas";
+}
+
+<h2>Pessoas Cadastradas</h2>
+
+<p>
+    <a asp-action="Cadastrar">Cadastrar Nova Pessoa</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Cpf)
+            </th>
+            <th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Model => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Cpf)
+                </td>
+                <td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.PessoaId">Editar</a>
+                    <a asp-action="Deletar" asp-route-id="@item.PessoaId">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

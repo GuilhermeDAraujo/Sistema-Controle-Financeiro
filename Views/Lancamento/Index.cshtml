@@ -1,0 +1,47 @@
+@model IEnumerable<Projeto_Controle_Financeiro.Models.Lancamento>
+
+@{
+    ViewData["Title"] = "Lista de Lançamentos Financeiros";
+}
+
+<h2>Lançamentos Financeiros</h2>
+
+<p>
+    <a asp-action="Criar">Novo Lançamento</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome da Pessoa</th>
+            <th>Data da Compra</th>
+            <th>Banco</th>
+            <th>Valor</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Model => item.Pessoa.Nome)
+                </td>
+                <td>
+                    @item.DataDaCompra.ToString("dd/MM/yyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Banco)
+                </td>
+                <td>
+                    R$ @item.Valor.ToString("F2")
+                </td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.LancamentoId">Editar</a>
+                    <a asp-action="Detalhes" asp-route-id="@item.LancamentoId">Detalhes</a>
+                    <a asp-action="Deletar" asp-route-id="@item.LancamentoId">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
