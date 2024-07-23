@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Filtrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xGaWx0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
