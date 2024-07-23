@@ -27,8 +27,12 @@ namespace Projeto_Controle_Financeiro.Controllers
 
         public IActionResult Criar()
         {
+            var model = new Lancamento
+            {
+                DataDaCompra = DateTime.Now
+            };
             ViewBag.Pessoa = new SelectList(_context.Pessoas.ToList(), "PessoaId", "Nome");
-            return View();
+            return View(model);
         }
 
         [HttpPost]
@@ -104,6 +108,11 @@ namespace Projeto_Controle_Financeiro.Controllers
             _context.Lancamentos.Remove(lancamentoBanco);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Filtrar()
+        {
+            return View();
         }
     }
 }

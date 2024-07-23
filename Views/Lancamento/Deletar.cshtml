@@ -41,20 +41,15 @@
     </div>
 </div>
 <hr/>
-<br>
 <div>
-    <a asp-action="Index">Voltar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
 </div>
 
 <script type="text/javascript">
     function confirmDelete(){
         var pessoa = "@Model.Pessoa.Nome";
         var banco = "@Model.Banco";
-        var dataDaCompra = new Date("@Model.DataDaCompra").toLocaleDateString('pt-BR', {
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric'
-        });
+        var dataDaCompra = "@Model.DataDaCompra.ToString("dd/MM/yyyy")";
         var valor = "@Model.Valor";
 
         var mensagem = `Tem certeza que deseja deletar o lançamento: \nNome: ${pessoa} \nBanco: ${banco} \nData da Compra: ${dataDaCompra} \nValor: ${valor}`;
