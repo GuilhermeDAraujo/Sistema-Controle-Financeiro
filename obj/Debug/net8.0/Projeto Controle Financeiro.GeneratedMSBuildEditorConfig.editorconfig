@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projeto_Controle_Financeiro
 build_property.RootNamespace = Projeto_Controle_Financeiro
-build_property.ProjectDir = G:\Guilherme\Projeto Controle Financeiro\
+build_property.ProjectDir = D:\Guilherme\Projeto Controle Financeiro\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\Guilherme\Projeto Controle Financeiro
+build_property.MSBuildProjectDirectory = D:\Guilherme\Projeto Controle Financeiro
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Home/Index.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Home/Privacy.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Criar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Deletar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Deletar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xEZWxldGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Detalhes.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xEZXRhbGhlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Editar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Filtrar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Filtrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xGaWx0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Index.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Lancamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2FtZW50b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Cadastrar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXENhZGFzdHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Deletar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Deletar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXERlbGV0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Editar.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Index.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Pessoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Shared/Error.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/_ViewImports.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/_ViewStart.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Guilherme/Projeto Controle Financeiro/Views/Shared/_Layout.cshtml]
+[D:/Guilherme/Projeto Controle Financeiro/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fshkqsuzuv

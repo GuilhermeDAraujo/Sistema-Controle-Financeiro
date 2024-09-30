@@ -9,8 +9,8 @@ namespace Projeto_Controle_Financeiro.Models
     {
         public int PessoaId {get;set;}
         public string Nome {get;set;}
-        public int Cpf {get;set;}
+        public string Cpf {get;set;}
 
-        public ICollection<Lancamento> Lancamentos {get;set;}
+        public ICollection<Lancamento> Lancamentos {get;set;} = new List<Lancamento>();
     }
 }
